@@ -77,7 +77,7 @@ namespace KmdScript
 
         private void openToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if(username == "omare")
+            if(username == "yourusername")
             {
                 try
                 {
@@ -249,7 +249,7 @@ namespace KmdScript
         }
         private void CreateExtend()
         {
-            if (username     == "omare")
+            if (username     == "yourusername")
             {
                 string AppName = "KmdScript";
                 string exePath = string.Format("\"{0}\"", Application.ExecutablePath);
